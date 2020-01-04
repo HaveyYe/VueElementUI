@@ -11,6 +11,8 @@ Vue.config.productionTip = false
 //项目使用ElementUI
 Vue.use(ElementUI);
 /* eslint-disable no-new */
+/* eslint-disable */
+/*// eslint-disable-next-line*/
 new Vue({
   el: '#app',
   router,

@@ -1,6 +1,6 @@
 <template>
   <div id="Layout">
-    <!--通过 row 和 col 组件，并通过 col 组件的 span 属性我们就可以自由地组合布局。-->
+    <!--通过 row 和 col assembly，并通过 col 组件的 span 属性我们就可以自由地组合布局。-->
     <!--<el-col>中span后面数值24是代表一整行占满。<el-col>中span数值代表，占每一行的比例。比如12代表占一行的一半-->
     <el-row>
       <el-col :span="24">
@@ -25,7 +25,7 @@
         <div class="grid-content bg-purple-light">span等于16说明：占三分之二</div>
       </el-col>
     </el-row>
-    <!--Row 组件 提供 gutter 属性来指定每一栏之间的间隔，默认间隔为 0。-->
+    <!--Row assembly 提供 gutter 属性来指定每一栏之间的间隔，默认间隔为 0。-->
     <el-row :gutter="20">
       <el-col :span="6">
         <div class="grid-content bg-purple">提供gutter属性来指定每一栏之间的间隔，默认间隔为 0。</div>
@@ -154,7 +154,6 @@
 </template>
 
 <script>
-  /* <!--Element 额外提供了一系列类名，用于在某些条件下隐藏元素。这些类名可以添加在任何 DOM 元素或自定义组件上。如果需要，请自行引入以下文件：-->*/
   import 'element-ui/lib/theme-chalk/display.css'
 
   export default {

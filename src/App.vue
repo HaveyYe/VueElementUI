@@ -1,15 +1,12 @@
 <template>
   <div id="app">
-    <Layout></Layout>
-    <!--<router-view/>-->
+    <router-view/>
   </div>
 </template>
 
 <script>
-  import Layout from '@/components/Layout布局/Layout'
 export default {
-  name: 'App',
-  components: {Layout}
+  name: 'App'
 }
 </script>
 
@@ -23,3 +20,4 @@ export default {
   margin-top: 60px;
 }
 </style>
+
