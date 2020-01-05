@@ -1,9 +1,12 @@
 <template>
   <div class="hello">
     <el-row :gutter="20">
-      <el-col :span="10" class="bg-purple-light"><router-link to="/layout">学习Layout布局</router-link></el-col>
-      <el-col :span="10" class="bg-purple"><router-link to="/container">学习Container布局容器</router-link></el-col>
+      <el-col :span="6" class="bg-purple-light"><router-link to="/layout">学习Layout布局</router-link></el-col>
+      <el-col :span="6" class="bg-purple"><router-link to="/container">学习Container布局容器</router-link></el-col>
+      <el-col :span="6" class="bg-purple-light"><router-link to="/button">学习Button</router-link></el-col>
+      <el-col :span="6" class="bg-purple-dark"><router-link to="/link">学习Link</router-link></el-col>
     </el-row>
+
   </div>
 </template>
 

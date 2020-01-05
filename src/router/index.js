@@ -3,6 +3,8 @@ import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
 import Layout from '@/components/assembly/Layout'
 import Container from '@/components/assembly/Container'
+import Button from '@/components/assembly/Button'
+import Link from '@/components/assembly/Link'
 Vue.use(Router)
 
 export default new Router({
@@ -21,6 +23,16 @@ export default new Router({
       path: '/container',
       name: 'Container',
       component: Container
+    },
+    {
+      path: '/button',
+      name: 'Button',
+      component: Button
+    },
+    {
+      path: '/link',
+      name: 'Link',
+      component: Link
     }
   ]
 })
