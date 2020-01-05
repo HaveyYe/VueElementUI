@@ -5,6 +5,7 @@ import Layout from '@/components/assembly/Layout'
 import Container from '@/components/assembly/Container'
 import Button from '@/components/assembly/Button'
 import Link from '@/components/assembly/Link'
+import Radio from '@/components/formElement/Radio'
 Vue.use(Router)
 
 export default new Router({
@@ -33,6 +34,11 @@ export default new Router({
       path: '/link',
       name: 'Link',
       component: Link
+    },
+    {
+      path: '/radio',
+      name: 'Radio',
+      component: Radio
     }
   ]
 })
