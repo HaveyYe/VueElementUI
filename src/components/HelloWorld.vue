@@ -21,6 +21,9 @@
       <el-col :span="6" class="bg-purple">
         <router-link to="/checkBox">checkBox</router-link>
       </el-col>
+      <el-col :span="6" class="bg-purple">
+        <router-link to="/input">学习Input</router-link>
+      </el-col>
     </el-row>
   </div>
 </template>

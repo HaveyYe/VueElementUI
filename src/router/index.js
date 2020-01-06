@@ -6,6 +6,8 @@ import Container from '@/components/assembly/Container'
 import Button from '@/components/assembly/Button'
 import Link from '@/components/assembly/Link'
 import Radio from '@/components/formElement/Radio'
+import CheckBox from '@/components/formElement/CheckBox'
+import Input from '@/components/formElement/Input'
 Vue.use(Router)
 
 export default new Router({
@@ -39,6 +41,16 @@ export default new Router({
       path: '/radio',
       name: 'Radio',
       component: Radio
+    },
+    {
+      path: '/checkBox',
+      name: 'CheckBox',
+      component: CheckBox
+    },
+    {
+      path: '/input',
+      name: 'Input',
+      component: Input
     }
   ]
 })
