@@ -3,7 +3,9 @@
 > 学习Vue
 #2020-01-03：ElmentUI组件:Layout布局
 #2020-01-04：ElmentUI组件：Containner布局容器
-#2020-01-05：ElmentUI组件：Containner布局容器；Link文字链接;表单元素：Radio
+#2020-01-05：ElmentUI组件：Containner布局容器；
+#2020-01-05：ElmentUI表单元素：Link文字链接;表单元素：Radio
+#2020-01-05：ElmentUI表单元素：CheckBox
 ## Build Setup
 
 ``` bash
