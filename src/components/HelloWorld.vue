@@ -24,6 +24,17 @@
       <el-col :span="6" class="bg-purple">
         <router-link to="/input">学习Input</router-link>
       </el-col>
+      <el-col :span="6" class="bg-purple">
+        <router-link to="/inputNumber">学习InputNumber</router-link>
+      </el-col>
+    </el-row>
+    <el-row>
+      <el-col :span="6" class="bg-purple">
+        <router-link to="/select">学习Select</router-link>
+      </el-col>
+      <el-col :span="6" class="bg-purple">
+        <router-link to="/cascade">学习Cascader联级选择器</router-link>
+      </el-col>
     </el-row>
   </div>
 </template>

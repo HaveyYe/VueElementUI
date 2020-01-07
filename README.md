@@ -5,7 +5,8 @@
 #2020-01-04：ElmentUI组件：Containner布局容器
 #2020-01-05：ElmentUI组件：Containner布局容器；
 #2020-01-05：ElmentUI表单元素：Link文字链接;表单元素：Radio
-#2020-01-05：ElmentUI表单元素：CheckBox
+#2020-01-06：ElmentUI表单元素：CheckBox
+#2020-01-07：ElmentUI表单元素：Input InputMunber Select 
 ## Build Setup
 
 ``` bash

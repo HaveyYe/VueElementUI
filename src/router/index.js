@@ -8,6 +8,9 @@ import Link from '@/components/assembly/Link'
 import Radio from '@/components/formElement/Radio'
 import CheckBox from '@/components/formElement/CheckBox'
 import Input from '@/components/formElement/Input'
+import InputNumber from '@/components/formElement/InputNumber'
+import Select from '@/components/formElement/Select'
+import Cascade from '@/components/formElement/Cascader'
 Vue.use(Router)
 
 export default new Router({
@@ -51,6 +54,22 @@ export default new Router({
       path: '/input',
       name: 'Input',
       component: Input
+    },
+    {
+      path:'/inputNumber',
+      name:'InputNumber',
+      component:InputNumber
+
+    },
+    {
+      path:'/select',
+      name:'Select',
+      component:Select
+    },
+    {
+      path:'/cascade',
+      name:'Cascade',
+      component:Cascade
     }
   ]
 })
