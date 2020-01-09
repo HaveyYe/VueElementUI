@@ -11,6 +11,8 @@ import Input from '@/components/formElement/Input'
 import InputNumber from '@/components/formElement/InputNumber'
 import Select from '@/components/formElement/Select'
 import Cascade from '@/components/formElement/Cascader'
+import Switch from '@/components/formElement/Switch'
+import Slider from '@/components/formElement/Slider'
 Vue.use(Router)
 
 export default new Router({
@@ -70,6 +72,16 @@ export default new Router({
       path:'/cascade',
       name:'Cascade',
       component:Cascade
+    },
+    {
+      path:'/switch',
+      name:'Switch',
+      component:Switch
+    },
+    {
+      path:'/slider',
+      name:'Slider',
+      component:Slider
     }
   ]
 })

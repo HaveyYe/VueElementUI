@@ -35,6 +35,12 @@
       <el-col :span="6" class="bg-purple">
         <router-link to="/cascade">学习Cascader联级选择器</router-link>
       </el-col>
+      <el-col :span="6" class="bg-purple">
+        <router-link to="/switch">学习Swicth开关</router-link>
+      </el-col>
+      <el-col :span="6" class="bg-purple">
+        <router-link to="/slider">学习Slider滑块</router-link>
+      </el-col>
     </el-row>
   </div>
 </template>
