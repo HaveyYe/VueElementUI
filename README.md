@@ -8,6 +8,7 @@
 #2020-01-06：ElmentUI表单元素：CheckBox
 #2020-01-07：ElmentUI表单元素：Input InputMunber Select 
 #2020-01-09：ElmentUI表单元素：Switch Slider
+#2020-01-09：ElmentUI表单元素：TimePicker时间选择器。DatePicker日期选择器 DateTimePicker 日期时间选择器
 ## Build Setup
 
 ``` bash

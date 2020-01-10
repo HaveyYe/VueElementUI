@@ -42,6 +42,20 @@
         <router-link to="/slider">学习Slider滑块</router-link>
       </el-col>
     </el-row>
+    <el-row>
+      <el-col :span="6" class="bg-purple">
+        <router-link to="/timePicker">学习TimePicker</router-link>
+      </el-col>
+      <el-col :span="6" class="bg-purple">
+        <router-link to="/datePicker">学习DatePicker日期选择器</router-link>
+      </el-col>
+      <el-col :span="6" class="bg-purple">
+        <router-link to="/dateTimePicker">学习dateTimePicke日期时间选择器</router-link>
+      </el-col>
+      <el-col :span="6" class="bg-purple">
+        <router-link to="/slider">学习Slider滑块</router-link>
+      </el-col>
+    </el-row>
   </div>
 </template>
 

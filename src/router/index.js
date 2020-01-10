@@ -13,6 +13,9 @@ import Select from '@/components/formElement/Select'
 import Cascade from '@/components/formElement/Cascader'
 import Switch from '@/components/formElement/Switch'
 import Slider from '@/components/formElement/Slider'
+import TimePicker from '@/components/formElement/TimePicker'
+import DatePicker from '@/components/formElement/DatePicker'
+import DateTimePicker from '@/components/formElement/DateTimePicker'
 Vue.use(Router)
 
 export default new Router({
@@ -82,6 +85,21 @@ export default new Router({
       path:'/slider',
       name:'Slider',
       component:Slider
+    },
+    {
+      path:'/timePicker',
+      name:'TimePicker',
+      component:TimePicker
+    },
+    {
+      path:'/datePicker',
+      name:'DatePicker',
+      component:DatePicker
+    },
+    {
+      path:'/dateTimePicker',
+      name:'DateTimePicker',
+      component:DateTimePicker
     }
   ]
 })
