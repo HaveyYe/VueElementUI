@@ -53,7 +53,21 @@
         <router-link to="/dateTimePicker">学习dateTimePicke日期时间选择器</router-link>
       </el-col>
       <el-col :span="6" class="bg-purple">
-        <router-link to="/slider">学习Slider滑块</router-link>
+        <router-link to="/upload">学习Upload上传</router-link>
+      </el-col>
+    </el-row>
+    <el-row>
+      <el-col :span="6" class="bg-purple">
+        <router-link to="/rate">学习Rate评分</router-link>
+      </el-col>
+      <el-col :span="6" class="bg-purple">
+        <router-link to="/colorPicker">学习colorPicker颜色选择器</router-link>
+      </el-col>
+      <el-col :span="6" class="bg-purple">
+        <router-link to="/transfer">学习transfer穿梭板</router-link>
+      </el-col>
+      <el-col :span="6" class="bg-purple">
+        <router-link to="/form">学习Form表单</router-link>
       </el-col>
     </el-row>
   </div>

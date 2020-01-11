@@ -16,6 +16,11 @@ import Slider from '@/components/formElement/Slider'
 import TimePicker from '@/components/formElement/TimePicker'
 import DatePicker from '@/components/formElement/DatePicker'
 import DateTimePicker from '@/components/formElement/DateTimePicker'
+import Upload from '@/components/formElement/Upload'
+import Rate from '@/components/formElement/Rate'
+import ColorPicker from '@/components/formElement/ColorPicker'
+import Transfer from '@/components/formElement/Transfer'
+import Form from '@/components/formElement/Form'
 Vue.use(Router)
 
 export default new Router({
@@ -100,6 +105,31 @@ export default new Router({
       path:'/dateTimePicker',
       name:'DateTimePicker',
       component:DateTimePicker
+    },
+    {
+      path:'/upload',
+      name:'Upload',
+      component:Upload,
+    },
+    {
+      path:'/rate',
+      name:'Rate',
+      component:Rate,
+    },
+    {
+      path:'/colorPicker',
+      name:'ColorPicker',
+      component:ColorPicker,
+    },
+    {
+      path:'/transfer',
+      name:'Transfer',
+      component:Transfer
+    },
+    {
+      path:'/form',
+      name:'Form',
+      component:Form
     }
   ]
 })
