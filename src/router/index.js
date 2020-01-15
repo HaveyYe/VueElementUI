@@ -21,6 +21,10 @@ import Rate from '@/components/formElement/Rate'
 import ColorPicker from '@/components/formElement/ColorPicker'
 import Transfer from '@/components/formElement/Transfer'
 import Form from '@/components/formElement/Form'
+import Table from '@/components/Data/Table'
+import Tag from '@/components/Data/Tag'
+import Progress from '@/components/Data/Progress'
+import Tree from '@/components/Data/Tree'
 Vue.use(Router)
 
 export default new Router({
@@ -130,6 +134,26 @@ export default new Router({
       path:'/form',
       name:'Form',
       component:Form
+    },
+    {
+      path:'/table',
+      name:'Table',
+      component:Table
+    },
+    {
+      path:'/tag',
+      name:'Tag',
+      component:Tag
+    },
+    {
+      path:'/progress',
+      name:'Progress',
+      component:Progress
+    },
+    {
+      path:'/tree',
+      name:'tree',
+      component:Tree
     }
   ]
 })

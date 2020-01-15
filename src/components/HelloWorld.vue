@@ -70,6 +70,20 @@
         <router-link to="/form">学习Form表单</router-link>
       </el-col>
     </el-row>
+    <el-row>
+      <el-col :span="6" class="bg-purple">
+        <router-link to="/table">学习Table表格</router-link>
+      </el-col>
+      <el-col :span="6" class="bg-purple">
+        <router-link to="/tag">学习Tag标签</router-link>
+      </el-col>
+      <el-col :span="6" class="bg-purple">
+        <router-link to="/progress">学习Progress进度条</router-link>
+      </el-col>
+      <el-col :span="6" class="bg-purple">
+        <router-link to="/tree">学习Tree树形控件</router-link>
+      </el-col>
+    </el-row>
   </div>
 </template>
 

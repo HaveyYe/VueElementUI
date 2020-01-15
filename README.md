@@ -10,6 +10,9 @@
 #2020-01-09：ElmentUI表单元素：Switch Slider
 #2020-01-10：ElmentUI表单元素：TimePicker时间选择器。DatePicker日期选择器 DateTimePicker 日期时间选择器
 #2020-01-11：ElmentUI表单元素：Upload上传，Rate评分，ColorPicker颜色选择器，Transfer穿梭框，部分Form学习。
+#2020-01-13：ElmentUIData元素：Table表格
+#2020-01-14：ElmentUIData元素：Table表格
+#2020-01-15：ElmentUIData元素：Table表格  Tag标签 Progress进度条 Tree树形控制器
 ## Build Setup
 
 ``` bash
