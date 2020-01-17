@@ -25,6 +25,9 @@ import Table from '@/components/Data/Table'
 import Tag from '@/components/Data/Tag'
 import Progress from '@/components/Data/Progress'
 import Tree from '@/components/Data/Tree'
+import Pagination from '@/components/Data/Pagination'
+import Badge from '@/components/Data/Badge'
+import Avatar from '@/components/Data/Avatar'
 Vue.use(Router)
 
 export default new Router({
@@ -154,6 +157,21 @@ export default new Router({
       path:'/tree',
       name:'tree',
       component:Tree
+    },
+    {
+      path:'/pagination',
+      name:'pagination',
+      component:Pagination
+    },
+    {
+      path: '/badge',
+      name: 'badge',
+      component: Badge
+    },,
+    {
+      path:'/avatar',
+      name:'avatar',
+      component:Avatar
     }
   ]
 })

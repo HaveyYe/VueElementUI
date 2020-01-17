@@ -13,6 +13,7 @@
 #2020-01-13：ElmentUIData元素：Table表格
 #2020-01-14：ElmentUIData元素：Table表格
 #2020-01-15：ElmentUIData元素：Table表格  Tag标签 Progress进度条 Tree树形控制器
+#2020-01-17：ElmentUIData元素：Pagination 分页 Badge标记 Avatar头像
 ## Build Setup
 
 ``` bash

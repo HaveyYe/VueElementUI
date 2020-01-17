@@ -84,6 +84,20 @@
         <router-link to="/tree">学习Tree树形控件</router-link>
       </el-col>
     </el-row>
+    <el-row>
+      <el-col :span="6" class="bg-purple">
+        <router-link to="/pagination">学习Pagination分页</router-link>
+      </el-col>
+      <el-col :span="6" class="bg-purple">
+        <router-link to="/badge">学习Badge标记</router-link>
+      </el-col>
+      <el-col :span="6" class="bg-purple">
+        <router-link to="/avatar">学习Avatar头像</router-link>
+      </el-col>
+      <el-col :span="6" class="bg-purple">
+        <router-link to="/tree">学习Tree树形控件</router-link>
+      </el-col>
+    </el-row>
   </div>
 </template>
 
