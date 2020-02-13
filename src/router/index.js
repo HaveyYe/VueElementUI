@@ -28,6 +28,7 @@ import Tree from '@/components/Data/Tree'
 import Pagination from '@/components/Data/Pagination'
 import Badge from '@/components/Data/Badge'
 import Avatar from '@/components/Data/Avatar'
+import Alert from '@/components/Notice/Alert'
 Vue.use(Router)
 
 export default new Router({
@@ -167,11 +168,16 @@ export default new Router({
       path: '/badge',
       name: 'badge',
       component: Badge
-    },,
+    },
     {
       path:'/avatar',
       name:'avatar',
       component:Avatar
+    },
+    {
+      path:'/alert',
+      name:'Alert',
+      component:Alert
     }
   ]
 })
