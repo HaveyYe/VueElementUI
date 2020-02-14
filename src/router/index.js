@@ -29,6 +29,7 @@ import Pagination from '@/components/Data/Pagination'
 import Badge from '@/components/Data/Badge'
 import Avatar from '@/components/Data/Avatar'
 import Alert from '@/components/Notice/Alert'
+import Loading from '@/components/Notice/Loading'
 Vue.use(Router)
 
 export default new Router({
@@ -178,6 +179,11 @@ export default new Router({
       path:'/alert',
       name:'Alert',
       component:Alert
+    },
+    {
+      path:'/loading',
+      name:'Loading',
+      component:Loading
     }
   ]
 })

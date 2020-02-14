@@ -103,7 +103,7 @@
         <router-link to="/alert">学习Alert警告</router-link>
       </el-col>
       <el-col :span="6" class="bg-purple">
-        <router-link to="/badge">学习Badge标记</router-link>
+        <router-link to="/loading">学习Loading加载</router-link>
       </el-col>
       <el-col :span="6" class="bg-purple">
         <router-link to="/avatar">学习Avatar头像</router-link>
