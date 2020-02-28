@@ -17,6 +17,7 @@
 #2020-02-13：ElmentUINotic元素：Alert警告
 #2020-02-14：ElmentUINotic元素：Loading加载中
 #2020-02-28：ElmentUINotic元素：Message消息提醒，MessageBox弹框，Notification通知
+#2020-02-28：ElmentUINotic元素：所有Notic消息提示元素
 ## Build Setup
 
 ``` bash

@@ -113,17 +113,31 @@
       </el-col>
     </el-row>
     <el-row>
+    <el-col :span="6" class="bg-purple">
+      <router-link to="/notification">学习Notification通知</router-link>
+    </el-col>
+    <el-col :span="6" class="bg-purple">
+      <router-link to="/navMenu">学习NavMenu菜单</router-link>
+    </el-col>
+    <el-col :span="6" class="bg-purple">
+      <router-link to="/breadcrumb">学习Breadcrumb面包屑</router-link>
+    </el-col>
+    <el-col :span="6" class="bg-purple">
+      <router-link to="/pageHeader">学习PageHeader页头</router-link>
+    </el-col>
+  </el-row>
+    <el-row>
       <el-col :span="6" class="bg-purple">
-        <router-link to="/notification">学习Notification通知</router-link>
+        <router-link to="/dropDown">学习DropDown下拉菜单</router-link>
       </el-col>
       <el-col :span="6" class="bg-purple">
-        <router-link to="/loading">学习Loading加载</router-link>
+        <router-link to="/step">学习Step步骤</router-link>
       </el-col>
       <el-col :span="6" class="bg-purple">
-        <router-link to="/message">学习Message消息提示</router-link>
+        <router-link to="/breadcrumb">学习Breadcrumb面包屑</router-link>
       </el-col>
       <el-col :span="6" class="bg-purple">
-        <router-link to="/messageBox">学习MessageBox弹框</router-link>
+        <router-link to="/pageHeader">学习PageHeader页头</router-link>
       </el-col>
     </el-row>
   </div>

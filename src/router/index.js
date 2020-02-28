@@ -33,6 +33,12 @@ import Loading from '@/components/Notice/Loading'
 import Message from '@/components/Notice/Message'
 import MessageBox from '@/components/Notice/MessageBox'
 import Notification from '@/components/Notice/Notification'
+import NavMenu from '@/components/Navigation/NavMenu'
+import Tabs from '@/components/Navigation/Tabs'
+import Breadcrumb from '@/components/Navigation/Breadcrumb'
+import PageHeader from '@/components/Navigation/PageHeader'
+import Dropdown from '@/components/Navigation/Dropdown'
+import Step from '@/components/Navigation/Step'
 Vue.use(Router)
 
 export default new Router({
@@ -202,6 +208,36 @@ export default new Router({
       path:'/notification',
       name:'Notification',
       component:Notification
+    },
+    {
+      path:'/navMenu',
+      name:'NavMenu',
+      component:NavMenu
+    },
+    {
+      path:'/tabs',
+      name:'Tabs',
+      component:Tabs
+    },
+    {
+      path:'/breadcrumb',
+      name:'Breadcrumb',
+      component:Breadcrumb
+    },
+    {
+      path:'/pageHeader',
+      name:'PageHeader',
+      component:PageHeader
+    },
+    {
+      path:'/dropDown',
+      name:'Dropdown',
+      component:Dropdown
+    },
+    {
+      path:'/step',
+      name:'Step',
+      component:Step
     }
   ]
 })
