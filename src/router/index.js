@@ -30,6 +30,9 @@ import Badge from '@/components/Data/Badge'
 import Avatar from '@/components/Data/Avatar'
 import Alert from '@/components/Notice/Alert'
 import Loading from '@/components/Notice/Loading'
+import Message from '@/components/Notice/Message'
+import MessageBox from '@/components/Notice/MessageBox'
+import Notification from '@/components/Notice/Notification'
 Vue.use(Router)
 
 export default new Router({
@@ -184,6 +187,21 @@ export default new Router({
       path:'/loading',
       name:'Loading',
       component:Loading
+    },
+    {
+      path:'/message',
+      name:'Message',
+      component:Message
+    },
+    {
+      path:'/messageBox',
+      name:'MessageBox',
+      component:MessageBox
+    },
+    {
+      path:'/notification',
+      name:'Notification',
+      component:Notification
     }
   ]
 })

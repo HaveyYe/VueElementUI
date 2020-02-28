@@ -106,10 +106,24 @@
         <router-link to="/loading">学习Loading加载</router-link>
       </el-col>
       <el-col :span="6" class="bg-purple">
-        <router-link to="/avatar">学习Avatar头像</router-link>
+        <router-link to="/message">学习Message消息提示</router-link>
       </el-col>
       <el-col :span="6" class="bg-purple">
-        <router-link to="/tree">学习Tree树形控件</router-link>
+        <router-link to="/messageBox">学习MessageBox弹框</router-link>
+      </el-col>
+    </el-row>
+    <el-row>
+      <el-col :span="6" class="bg-purple">
+        <router-link to="/notification">学习Notification通知</router-link>
+      </el-col>
+      <el-col :span="6" class="bg-purple">
+        <router-link to="/loading">学习Loading加载</router-link>
+      </el-col>
+      <el-col :span="6" class="bg-purple">
+        <router-link to="/message">学习Message消息提示</router-link>
+      </el-col>
+      <el-col :span="6" class="bg-purple">
+        <router-link to="/messageBox">学习MessageBox弹框</router-link>
       </el-col>
     </el-row>
   </div>

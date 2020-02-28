@@ -16,6 +16,7 @@
 #2020-01-17：ElmentUIData元素：Pagination 分页 Badge标记 Avatar头像
 #2020-02-13：ElmentUINotic元素：Alert警告
 #2020-02-14：ElmentUINotic元素：Loading加载中
+#2020-02-28：ElmentUINotic元素：Message消息提醒，MessageBox弹框，Notification通知
 ## Build Setup
 
 ``` bash
